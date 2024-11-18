@@ -1653,6 +1653,7 @@ a.mapboxgl-ctrl-logo {
 
 .portfolio-item {
     position: relative;
+    height: 700px;
 }
 
 .portfolio-item::after {
@@ -1700,8 +1701,14 @@ a.mapboxgl-ctrl-logo {
     visibility: visible;
 }
 
+.swiper-wrapper .portfolio-item .image {
+    height: 100%;
+}
+
 .portfolio-item .image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .portfolio-item .content {
